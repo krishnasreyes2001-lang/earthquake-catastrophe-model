@@ -1,5 +1,5 @@
 # Earthquake Analysis and Catastrophe Modelling – Chennai
-
+This project was developed for learning purposes to understand catastrophe modelling workflows in the absence of complete real-world datasets.
 ## Overview
 This project analyses historical earthquake data and develops a simplified catastrophe modelling workflow for the Chennai region.
 
