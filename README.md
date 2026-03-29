@@ -3,18 +3,18 @@ This project was developed for learning purposes to understand catastrophe model
 ## Overview
 This project analyses historical earthquake data and develops a simplified catastrophe modelling workflow for the Chennai region.
 
-Due to the lack of granular exposure and ground motion data, a synthetic dataset was constructed to demonstrate the hazard–vulnerability–loss framework. The primary focus of the study is on exploratory data analysis (EDA) and understanding seismic patterns.
+The primary focus of the study is on exploratory data analysis (EDA) and understanding seismic patterns.
 
 ## Exploratory Data Analysis (EDA)
 
-The USGS earthquake dataset (1976–2026) was analysed to understand key characteristics of seismic activity in India and surrounding regions.
+The USGS earthquake dataset (1976–2026) was analysed to understand the characteristics of seismic activity in India and surrounding regions.
 
 ### Key Findings
 
 - Earthquake magnitudes follow the Gutenberg–Richter law, with a linear relationship observed in log-scale frequency plots  
 - A completeness threshold of M ≥ 4.2 was identified, below which events are probably under-recorded  
 - Most earthquakes are concentrated in the 4–5 magnitude range, with frequency declining for higher magnitudes  
-- Significant clustering of events is observed along the Himalayan belt and Andaman–Sumatra region
+- Significant clustering of epicenters is observed along the Himalayan belt and Andaman–Sumatra region
 - Earthquake depth and magnitude show low correlation, indicating independence  
 - A spike in earthquake counts during 2004–2005 is attributed to aftershocks from the Sumatra–Andaman earthquake  
 
@@ -23,7 +23,7 @@ The USGS earthquake dataset (1976–2026) was analysed to understand key charact
 ### 1. Simulation Framework
 - Earthquake occurrences modelled using a Poisson process
 - Magnitudes, depth, and locations generated using bootstrap sampling
-- Synthetic dataset created to extend observations beyond historical limitations
+- Synthetic dataset created to extend observations beyond historical limitations (for 1000 years)
 
 ### 2. Ground Motion Estimation
 - Peak Ground Acceleration (PGA) estimated using an attenuation relationship
