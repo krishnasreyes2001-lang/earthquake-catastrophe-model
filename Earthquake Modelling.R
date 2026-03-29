@@ -8,10 +8,10 @@ library(geosphere)
 
 options(scipen = 999)
 ######load all 4 data sets#####
-EQ_76_96 = read.csv("C:\\Users\\Shreyas.K.K\\Desktop\\Catastrophe Modelling\\Earthquake\\Datasets\\query 1976-96.csv")
-EQ_97_06 = read.csv("C:\\Users\\Shreyas.K.K\\Desktop\\Catastrophe Modelling\\Earthquake\\Datasets\\query 1997-06.csv")
-EQ_07_16 = read.csv("C:\\Users\\Shreyas.K.K\\Desktop\\Catastrophe Modelling\\Earthquake\\Datasets\\query 2007-16.csv")
-EQ_17_26 = read.csv("C:\\Users\\Shreyas.K.K\\Desktop\\Catastrophe Modelling\\Earthquake\\Datasets\\query 2017-26.csv")
+EQ_76_96 = read.csv("\\query 1976-96.csv")
+EQ_97_06 = read.csv("\\query 1997-06.csv")
+EQ_07_16 = read.csv("\query 2007-16.csv")
+EQ_17_26 = read.csv("\\query 2017-26.csv")
 
 EQ = rbind(EQ_17_26, EQ_07_16, EQ_97_06, EQ_76_96)
 
